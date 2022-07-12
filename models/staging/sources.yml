@@ -1,0 +1,24 @@
+version: 2
+
+sources:
+  - name: adventurewoks
+    schema: datalake
+    description: This is the northwind erp postgres database replica
+    tables:
+      - name: address
+      - name: business_entity
+      - name: business_entity_address
+      - name: business_entity_contact
+      - name: country_region
+      - name: credit_card
+      - name: customer
+      - name: employee
+      - name: person
+      - name: product
+      - name: product_category
+      - name: product_sub_category
+      - name: sales_order_detail
+      - name: sales_order_header
+      - name: sales_reason
+      - name: sales_territory
+      - name: state_province
